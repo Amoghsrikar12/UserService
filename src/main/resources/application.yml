@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    password: Silver@100
+    url: jdbc:mysql://localhost:3306/springDataBase
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+  security:
+    oauth2:
+      client:
+        registration:
+         google:
+          clientId: 595328838692-t5vtn5ofoo181c6266o2jhtaql3m5gje.apps.googleusercontent.com
+          clientSecret: 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
+          scope:
+           - email
+           - profile
